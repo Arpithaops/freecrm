@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="EmployeesRestAPISuite">
+<listeners>
+	<listener class-name="com.qa.ExtentReportListerner.ExtentListener" />
+</listeners>
+	<test thread-count="3" name="EmployeesRestAPITest">
+		<classes>
+			<class name="com.freecrm.qa.tests.ContactsPageTest" />
+			<class name="com.freecrm.qa.tests.HomePageTest" />
+			<class name="com.freecrm.qa.tests.LoginPageTest" />
+			
+
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

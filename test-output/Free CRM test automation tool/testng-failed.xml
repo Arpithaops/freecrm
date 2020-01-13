@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Free CRM test automation tool]">
+  <test thread-count="5" name="Free Crm(failed)">
+    <classes>
+      <class name="com.freecrm.qa.tests.LoginPageTest">
+        <methods>
+          <include name="returnHomePage"/>
+          <include name="login"/>
+          <include name="SetUp"/>
+        </methods>
+      </class> <!-- com.freecrm.qa.tests.LoginPageTest -->
+    </classes>
+  </test> <!-- Free Crm(failed) -->
+</suite> <!-- Failed suite [Free CRM test automation tool] -->

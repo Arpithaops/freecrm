@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="7" passed="7">
+  <reporter-output>
+  </reporter-output>
+  <suite name="EmployeesRestAPISuite" duration-ms="242657" started-at="2019-06-04T19:55:46Z" finished-at="2019-06-04T19:59:49Z">
+    <groups>
+    </groups>
+    <test name="EmployeesRestAPITest" duration-ms="242657" started-at="2019-06-04T19:55:46Z" finished-at="2019-06-04T19:59:49Z">
+      <class name="com.freecrm.qa.tests.HomePageTest">
+        <test-method status="PASS" signature="SetUp()[pri:0, instance:com.freecrm.qa.tests.HomePageTest@4667ae56]" name="SetUp" is-config="true" duration-ms="27011" started-at="2019-06-04T19:57:30Z" finished-at="2019-06-04T19:57:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method status="PASS" signature="validateUsername()[pri:1, instance:com.freecrm.qa.tests.HomePageTest@4667ae56]" name="validateUsername" duration-ms="4533" started-at="2019-06-04T19:57:57Z" finished-at="2019-06-04T19:58:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateUsername -->
+        <test-method status="PASS" signature="CloseBrowser()[pri:0, instance:com.freecrm.qa.tests.HomePageTest@4667ae56]" name="CloseBrowser" is-config="true" duration-ms="2079" started-at="2019-06-04T19:58:02Z" finished-at="2019-06-04T19:58:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+        <test-method status="PASS" signature="SetUp()[pri:0, instance:com.freecrm.qa.tests.HomePageTest@4667ae56]" name="SetUp" is-config="true" duration-ms="20014" started-at="2019-06-04T19:58:46Z" finished-at="2019-06-04T19:59:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method status="PASS" signature="validatePageTitle()[pri:2, instance:com.freecrm.qa.tests.HomePageTest@4667ae56]" name="validatePageTitle" duration-ms="32" started-at="2019-06-04T19:59:06Z" finished-at="2019-06-04T19:59:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatePageTitle -->
+        <test-method status="PASS" signature="CloseBrowser()[pri:0, instance:com.freecrm.qa.tests.HomePageTest@4667ae56]" name="CloseBrowser" is-config="true" duration-ms="1241" started-at="2019-06-04T19:59:06Z" finished-at="2019-06-04T19:59:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+        <test-method status="PASS" signature="SetUp()[pri:0, instance:com.freecrm.qa.tests.HomePageTest@4667ae56]" name="SetUp" is-config="true" duration-ms="19005" started-at="2019-06-04T19:59:26Z" finished-at="2019-06-04T19:59:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method status="PASS" signature="validateLogo()[pri:3, instance:com.freecrm.qa.tests.HomePageTest@4667ae56]" name="validateLogo" duration-ms="2645" started-at="2019-06-04T19:59:45Z" finished-at="2019-06-04T19:59:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateLogo -->
+        <test-method status="PASS" signature="CloseBrowser()[pri:0, instance:com.freecrm.qa.tests.HomePageTest@4667ae56]" name="CloseBrowser" is-config="true" duration-ms="1425" started-at="2019-06-04T19:59:47Z" finished-at="2019-06-04T19:59:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+      </class> <!-- com.freecrm.qa.tests.HomePageTest -->
+      <class name="com.freecrm.qa.tests.LoginPageTest">
+        <test-method status="PASS" signature="SetUp()[pri:0, instance:com.freecrm.qa.tests.LoginPageTest@77cd7a0]" name="SetUp" is-config="true" duration-ms="39782" started-at="2019-06-04T19:58:04Z" finished-at="2019-06-04T19:58:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method status="PASS" signature="ValidatePageTitle()[pri:1, instance:com.freecrm.qa.tests.LoginPageTest@77cd7a0]" name="ValidatePageTitle" duration-ms="20" started-at="2019-06-04T19:58:43Z" finished-at="2019-06-04T19:58:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidatePageTitle -->
+        <test-method status="PASS" signature="returnHomePage()[pri:0, instance:com.freecrm.qa.tests.LoginPageTest@77cd7a0]" name="returnHomePage" is-config="true" duration-ms="2060" started-at="2019-06-04T19:58:44Z" finished-at="2019-06-04T19:58:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- returnHomePage -->
+        <test-method status="PASS" signature="SetUp()[pri:0, instance:com.freecrm.qa.tests.LoginPageTest@77cd7a0]" name="SetUp" is-config="true" duration-ms="15073" started-at="2019-06-04T19:59:07Z" finished-at="2019-06-04T19:59:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method status="PASS" signature="login()[pri:2, instance:com.freecrm.qa.tests.LoginPageTest@77cd7a0]" name="login" duration-ms="1438" started-at="2019-06-04T19:59:22Z" finished-at="2019-06-04T19:59:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="returnHomePage()[pri:0, instance:com.freecrm.qa.tests.LoginPageTest@77cd7a0]" name="returnHomePage" is-config="true" duration-ms="2237" started-at="2019-06-04T19:59:23Z" finished-at="2019-06-04T19:59:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- returnHomePage -->
+      </class> <!-- com.freecrm.qa.tests.LoginPageTest -->
+      <class name="com.freecrm.qa.tests.ContactsPageTest">
+        <test-method status="PASS" signature="SetUp()[pri:0, instance:com.freecrm.qa.tests.ContactsPageTest@1a968a59]" name="SetUp" is-config="true" duration-ms="48067" started-at="2019-06-04T19:55:47Z" finished-at="2019-06-04T19:56:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method status="PASS" signature="contactsHeader()[pri:0, instance:com.freecrm.qa.tests.ContactsPageTest@1a968a59]" name="contactsHeader" duration-ms="200" started-at="2019-06-04T19:56:35Z" finished-at="2019-06-04T19:56:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- contactsHeader -->
+        <test-method status="PASS" signature="CloseBrowser()[pri:0, instance:com.freecrm.qa.tests.ContactsPageTest@1a968a59]" name="CloseBrowser" is-config="true" duration-ms="1663" started-at="2019-06-04T19:56:35Z" finished-at="2019-06-04T19:56:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+        <test-method status="PASS" signature="SetUp()[pri:0, instance:com.freecrm.qa.tests.ContactsPageTest@1a968a59]" name="SetUp" is-config="true" duration-ms="43394" started-at="2019-06-04T19:56:37Z" finished-at="2019-06-04T19:57:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method status="PASS" signature="emailHeader()[pri:0, instance:com.freecrm.qa.tests.ContactsPageTest@1a968a59]" name="emailHeader" duration-ms="7448" started-at="2019-06-04T19:57:20Z" finished-at="2019-06-04T19:57:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- emailHeader -->
+        <test-method status="PASS" signature="CloseBrowser()[pri:0, instance:com.freecrm.qa.tests.ContactsPageTest@1a968a59]" name="CloseBrowser" is-config="true" duration-ms="2253" started-at="2019-06-04T19:57:28Z" finished-at="2019-06-04T19:57:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+      </class> <!-- com.freecrm.qa.tests.ContactsPageTest -->
+    </test> <!-- EmployeesRestAPITest -->
+  </suite> <!-- EmployeesRestAPISuite -->
+</testng-results>
